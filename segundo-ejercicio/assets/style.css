@@ -1,0 +1,51 @@
+@media(min-width: 1200px) {
+    #datos {
+        float: left;
+        width: 30%;
+    }
+
+    #info {
+        float: left;
+        width: 70%;
+    }
+
+    #descripcion {
+        float: left;
+        width: 50%;
+    }
+    #contenido {
+        float: left;
+        width: 50%;
+    }
+}
+
+@media(min-width: 601px) and (max-width: 1999px) {
+    #datos {
+        float: left;
+        width: 30%;
+    }
+
+    #info {
+        float: left;
+        width: 70%;
+
+    }
+
+    #partes {
+        list-style-type: none;
+        display: grid;
+        grid-template-columns: repeat(3, 5fr);
+    }
+}
+
+@media(max-width: 600px) {
+    body {
+        margin: 0px 25px;
+    }
+
+    #datos {
+        ul {
+            list-style-type: none;
+        }
+    }
+}
