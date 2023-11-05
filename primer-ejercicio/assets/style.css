@@ -1,0 +1,32 @@
+@media(min-width: 901px) {
+    #datos {
+        float: left;
+        width: 30%;
+    }
+
+    #curriculum {
+        float: left;
+        width: 70%;
+    }
+
+    #formacion {
+        float: left;
+        width: 50%;
+    }
+    #experiencia {
+        float: left;
+        width: 50%;
+    }
+}
+
+@media(min-width: 601px) and (max-width: 900px) {
+    #datos {
+        float: left;
+        width: 30%;
+    }
+
+    #curriculum {
+        float: left;
+        width: 70%;
+    }
+}
